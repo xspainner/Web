@@ -1,0 +1,16 @@
+@import 'https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400&display=swap';
+
+body {
+	font-family: "Kanti", sans-serif;
+}
+
+.mainpage {
+margin: 200px 350px 100px;	
+position: wrap;
+border-bottom: 5px solid var(--main-red);
+border-radius: 5px;
+}
+
+.text-end {
+	color: rgb(255, 15, 15);
+}
