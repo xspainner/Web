@@ -535,4 +535,11 @@ let processScroll = () => {
 	  document.getElementById("progress-bar").style.setProperty("--scrollAmount", scrollPercent); 
   }
   
-  document.addEventListener('scroll', processScroll);
+document.addEventListener('scroll', processScroll);
+
+
+
+
+function clickAlert() {
+	swal("ผิดพลาด", "นี้เป็นเพียงเว็บทดลองเท่านั้นไม่สามารถเติมได้", "error");
+}
