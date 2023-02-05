@@ -1,0 +1,29 @@
+@import 'https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400&display=swap';
+
+body {
+	font-family: "Kanti", sans-serif;
+}
+
+.mainpage {
+margin: 200px 350px 100px;	
+position: wrap;
+border-bottom: 5px solid var(--main-red);
+border-radius: 5px;
+}
+
+.text-end {
+	color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 820px) {
+	.mainpage {
+		margin: 190px 16px 40px;
+	}
+}
+  
+  /* Phone */
+  @media screen and (max-width: 500px) {
+	.mainpage {
+		margin: 80px 16px -22px;
+	}
+  }
