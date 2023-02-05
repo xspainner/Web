@@ -55,7 +55,7 @@
 				<input class="form-control mt-2" id="cfpassword" type="password" placeholder="ยืนยันรหัสผ่าน" required="">
 				<input class="form-control mt-2" id="email" type="email" placeholder="อีเมล" required="">
 				<br>
-				<button type="submit" id="register" class="btn btn-outline-dark" href="#" role="button">สมัครสมาชิก </button>
+				<button onclick="clickAlertregister()" type="submit" id="register" class="btn btn-outline-dark" href="#" role="button">สมัครสมาชิก </button>
 				</form>
 				<div class="text-end mt-2">
 				มีบัญชีอยู่แล้ว? <a href="login.html" style="color: #FF0043; text-decoration: none;">เข้าสู่ระบบ</a>
@@ -83,5 +83,9 @@
     </div>
   </div>
 </footer>
+
+<script src="js/script.js"></script>
+<script src="js/login.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>

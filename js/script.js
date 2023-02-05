@@ -543,3 +543,13 @@ document.addEventListener('scroll', processScroll);
 function clickAlert() {
 	swal("ผิดพลาด", "นี้เป็นเพียงเว็บทดลองเท่านั้นไม่สามารถเติมได้", "error");
 }
+
+
+function clickAlertlogin() {
+	swal("ผิดพลาด", "นี้เป็นเพียงเว็บทดลองเท่านั้นไม่สามารถเข้าสู่ระบบได้", "error");
+}
+
+
+function clickAlertregister() {
+	swal("ผิดพลาด", "นี้เป็นเพียงเว็บทดลองเท่านั้นไม่สามารถลงทะเบียนได้", "error");
+}

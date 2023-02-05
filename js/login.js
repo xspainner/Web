@@ -21,3 +21,14 @@ function validate() {
 
     return pass;
 }
+
+
+
+function clickAlertlogin() {
+	swal("ผิดพลาด", "นี้เป็นเพียงเว็บทดลองเท่านั้นไม่สามารถเข้าสู่ระบบได้", "error");
+}
+
+
+function clickAlertregister() {
+	swal("ผิดพลาด", "นี้เป็นเพียงเว็บทดลองเท่านั้นไม่สามารถลงทะเบียนได้", "error");
+}

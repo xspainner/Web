@@ -49,11 +49,11 @@
                     <p class="text-muted">
                     เข้าสู่ระบบก่อนใช้งาน</p>
                     <div class="row row-cols-1 justify-content-md-center">
-                        <form onsubmit="return login()" id="login-from" class="col">
+                        <form id="login-from" class="col">
                         <input class="form-control" type="text" id="username" placeholder="ชื่อผู้ใช้" required="">
                         <input class="form-control mt-2" type="password" id="password" placeholder="รหัสผ่าน" required="">
                         <br>
-                        <button type="submit" id="login" class="btn btn-outline-dark" href="#" role="button">เข้าสู่ระบบ
+                        <button onclick="clickAlertlogin()" type="submit"  id="login" class="btn btn-outline-dark" href="#" role="button">เข้าสู่ระบบ
                         </button>
                         </form>
                         <div class="text-end mt-2">
@@ -114,9 +114,11 @@
             text:"Please insert password"
         })
     }
-
-    return pass;
+  return pass;
 }
-        </script>
+</script>
+<script src="js/script.js"></script>
+<script src="js/login.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 </html>
